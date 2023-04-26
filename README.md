@@ -1,6 +1,6 @@
 # Mon Portfolio
 
-Bienvenue sur mon portfolio ! Ce site web a été construit avec React et Framer Motion, et présente mes compétences et projets en tant que développeur web. Vous pouvez visiter le site web en direct [ici](https://vs-portfolio.pages.dev/).
+Bienvenue sur mon portfolio ! Ce site web a été construit avec React et Framer Motion, et présente mes compétences et projets en tant que développeur web. Vous pouvez visiter le site web en direct [ici](https://google.fr).
 
 ## Fonctionnalités
 

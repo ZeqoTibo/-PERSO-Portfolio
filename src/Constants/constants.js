@@ -90,9 +90,9 @@ const introduction = {
 
     "Bonjour et bienvenu sur mon portfolio !",
 
-    "Je m'appelle Thibault et je suis un jeune développeur fullstack basé en France, à coté d'Angers alias la ville n°1 où il fait bon vivre. Ma passion pour le développement web a commencé durant mes années d'étude, plus précisement en STI2D, lorsque j'ai commencé à concevoir des sites en HTML/CSS/JS.",
+    "Je m'appelle Thibault et je suis un jeune développeur fullstack basé en France, à coté d'Angers. Ma passion pour le développement web a commencé durant mes années d'étude, plus précisement en STI2D, lorsque j'ai commencé à concevoir des sites en HTML/CSS/JS. Depuis, je n'ai cessé de progresser et d'élargir mes connaissances dans ce domaine.",
 
-    "Depuis, je n'ai cessé de progresser et d'élargir mes connaissances dans ce domaine. En septembre 2019, j'intègre un DUT Informatique à Laval qui m'a permis de plonger plus profondément dans le développement informatique, ce qui m'a amené ensuite à continuer dans une Licence Professionnelle : Développeur et Intégrateur de Web Application. afin d'acquerir d'avantages de compétences.",
+    "En septembre 2019, j'intègre un DUT Informatique à Laval qui m'a permis de plonger plus profondément dans le développement informatique, ce qui m'a amené ensuite à continuer dans une Licence Professionnelle : Développeur et Intégrateur de Web Application afin d'acquerir davantages de compétences.",
 
     "Je suis désormais en 1ère année de Master : Développeur Fullstack, mais aussi en tant qu'auto-entrepreneur.",
 

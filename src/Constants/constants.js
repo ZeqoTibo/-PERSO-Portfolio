@@ -1,5 +1,6 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
+  faRobot,
   faX,
   faBars,
   faWindowRestore,
@@ -7,6 +8,7 @@ import {
   faDiceD6,
 } from "@fortawesome/free-solid-svg-icons";
 import {
+  faTrello,
   faReact,
   faGithub,
   faYoutube,
@@ -26,10 +28,9 @@ import {
   reduxIcon,
   gitIcon,
   githubIcon,
-  gsapIcon,
-  shopifyIcon,
-  webflowIcon,
-  framerIcon,
+  nodejsIcon,
+  trelloIcon,
+  slackIcon,
   figmaIcon,
   jammmingProject,
   teslaProject,
@@ -55,10 +56,9 @@ const media = {
   reduxIcon,
   gitIcon,
   githubIcon,
-  gsapIcon,
-  shopifyIcon,
-  webflowIcon,
-  framerIcon,
+  nodejsIcon,
+  trelloIcon,
+  slackIcon,
   figmaIcon,
   jammmingProject,
   teslaProject,
@@ -74,6 +74,8 @@ const media = {
 }
 
 const icons = {
+  faTrello,
+  faRobot,
   faBars,
   faX,
   faWindowRestore,
@@ -96,7 +98,7 @@ const introduction = {
 
     "Je suis désormais en 1ère année de Master : Développeur Fullstack, mais aussi en tant qu'auto-entrepreneur.",
 
-    "Je suis toujours enthousiaste à l'idée de collaborer avec des personnes et des équipes qui partagent ma passion. Merci d'avoir pris le temps de visiter mon portfolio !",
+    "Merci d'avoir pris le temps de visiter mon portfolio !",
   ],
 };
 
@@ -200,28 +202,28 @@ const skills = [
     title: "HTML",
     icon: htmlIcon,
     description:
-        "I am proficient using HTML to structure web pages and create semantic content that is accessible to all users.",
+        "Je maîtrise l'utilisation du langage HTML pour structurer les pages web et créer du contenu accessible à tous les utilisateurs.",
   },
   {
     id: "css",
     title: "CSS",
     icon: cssIcon,
     description:
-        "I am skilled in using CSS to style web pages and create visually appealing designs that enhance user experience.",
+        "Je sais utiliser les CSS pour styliser les pages web et créer des conceptions visuellement agréables qui améliorent l'expérience de l'utilisateur.",
   },
   {
     id: "javascript",
     title: "JavaScript",
     icon: jsIcon,
     description:
-        "I am experienced in using JavaScript to add interactivity and functionality to web pages and create dynamic user interfaces.",
+        "J'ai de l'expérience dans l'utilisation de JavaScript pour ajouter de l'interactivité et des fonctionnalités aux pages web et créer des interfaces utilisateur dynamiques.",
   },
   {
     id: "react",
-    title: "React",
+    title: "React JS",
     icon: reactIcon,
     description:
-        "I have a strong understanding of React and its core concepts, and I am able to create reusable components and manage application state using hooks and context.",
+        "Je maîtrise React et ses concepts de base. Je suis capable de créer des composants réutilisables et de gérer l'état de l'application à l'aide de hooks et de contextes.",
   },
   {
     id: "tailwind",
@@ -230,61 +232,54 @@ const skills = [
     description:
         "I am familiar with using Tailwind CSS to quickly and efficiently style web pages, and am able to create custom designs by combining pre-defined classes.",
   },
+  // {
+  //   id: "threejs",
+  //   title: "Three.js",
+  //   icon: threeIcon,
+  //   description:
+  //       "I have experience using Three.js to create 3D graphics and animations in web applications, and am able to create complex scenes and visualizations.",
+  // },
   {
-    id: "threejs",
-    title: "Three.js",
-    icon: threeIcon,
-    description:
-        "I have experience using Three.js to create 3D graphics and animations in web applications, and am able to create complex scenes and visualizations.",
-  },
-  {
-    id: "figma",
-    title: "Figma",
+    id: "reactnative",
+    title: "React Native",
     icon: figmaIcon,
     description:
-        "I am proficient in using Figma to design and prototype user interfaces and other graphic elements, and am able to collaborate with other designers and developers using the tool.",
+        "Je sais utiliser React Native pour concevoir des applications mobiles compatibles Android et IOS. Un framework que j'ai découvert récemment et qui m'a beaucoup plu.",
   },
   {
     id: "git",
     title: "Git",
     icon: gitIcon,
     description:
-        "I am proficient in using Git to manage and track changes to my code over time, collaborate with others on a project, and manage conflicts between different changes.",
+        "Je sais utiliser Git pour gérer et suivre les modifications apportées à mon code au fil du temps, collaborer avec d'autres personnes sur un projet et gérer les conflits entre les différentes modifications.",
   },
   {
     id: "github",
     title: "GitHub",
     icon: githubIcon,
     description:
-        "I am skilled in using GitHub to collaborate on projects, share code, and track issues and bugs. With GitHub, I can create and manage repositories, contribute to open-source projects, and showcase my work to potential employers.",
+        "Je sais utiliser GitHub pour collaborer à des projets, partager du code, suivre les problèmes et les bugs. Avec GitHub, je peux créer et gérer des dépôts, contribuer à des projets open-source et présenter mon travail à des employeurs potentiels.",
   },
   {
-    id: "gsap",
-    title: "GSAP",
-    icon: gsapIcon,
+    id: "nodejs",
+    title: "NodeJS",
+    icon: nodejsIcon,
     description:
-        "I have experience using GSAP to create complex animations and effects in web applications. With GSAP, I can create smooth, performant animations that work accross different browsers and devices.",
+        "NodeJs est un environnement d'exécution JavaScript côté serveur qui me permet d'écrire des scripts côté serveur pour produire du contenu dynamique pour les pages web.",
   },
   {
-    id: "shopify",
-    title: "Shopify",
-    icon: shopifyIcon,
+    id: "trello",
+    title: "Trello",
+    icon: trelloIcon,
     description:
-        "I am proficient in using Shopify to create online stores and sell products. With Shopify, I can manage the inventory, process payments, and customize the look and feel of the online store.",
+        "Trello est très utile pour gérer mes projets et mes tâches. Je sais créer des tableaux, des listes et des cartes, et les organiser pour suivre mes progrès et collaborer avec d'autres personnes.",
   },
   {
-    id: "framer",
-    title: "Framer",
-    icon: framerIcon,
+    id: "slack",
+    title: "Slack",
+    icon: slackIcon,
     description:
-        "I have experience using Framer to create interactive interfaces and animations for web and mobile applications.",
-  },
-  {
-    id: "webflow",
-    title: "Webflow",
-    icon: webflowIcon,
-    description:
-        "I am familiar using Webflow to design and build responsive websites visually, using drag-and-drop interface and coded components.",
+        "J'utilise désormais Slack pour communiquer avec mes collègues et mes clients. Je sais utiliser les canaux, les messages directs et les applications pour collaborer efficacement.",
   },
 ];
 

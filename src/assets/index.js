@@ -17,20 +17,19 @@ import threeIcon from './tech/threejs.svg'
 import tailwindIcon from './tech/tailwind.png'
 import gitIcon from './tech/git.png'
 import githubIcon from './tech/github.png'
-import figmaIcon from './tech/figma.png'
+import figmaIcon from './tech/reactjs.png'
 import reduxIcon from './tech/redux.png'
-import gsapIcon from './tech/gsap.png'
-import shopifyIcon from './tech/shopify.png'
-import framerIcon from './tech/framer.png'
-import webflowIcon from './tech/webflow.svg'
+import nodejsIcon from './tech/nodejs.png'
+import trelloIcon from './tech/trello.png'
+import slackIcon from './tech/slack.png'
 
 //Projects
 
-import jammmingProject from './projects/jammming.png'
+import jammmingProject from './projects/Topiscine.png'
 import fitclubProject from './projects/fitclub.png'
-import infopilotProject from './projects/infopilot.png'
-import teslaProject from './projects/tesla.png'
-import venomsoulProject from './projects/venomsoul.png'
+import infopilotProject from './projects/Topiscine.png'
+import teslaProject from './projects/HopMaListe.png'
+import venomsoulProject from './projects/BuildYone.png'
 
 //Memoji
 
@@ -61,10 +60,9 @@ export {
     githubIcon,
     figmaIcon,
     reduxIcon,
-    gsapIcon,
-    shopifyIcon,
-    framerIcon,
-    webflowIcon,
+    nodejsIcon,
+    trelloIcon,
+    slackIcon,
     jammmingProject,
     fitclubProject,
     infopilotProject,

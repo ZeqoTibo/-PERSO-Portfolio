@@ -42,7 +42,7 @@ const ContactForm = () => {
           style={{ fontFamily: "Morganite Bold, sans-serif" }}
           className="message text-7xl bg-primary-600 p-2 rounded-xl text-grayscale-200 text-center rounded-br-[0%] relative shadow-2xl"
         >
-          <Typewriter words={["Got ideas?", "Let's team up!"]} loop={true} />
+          <Typewriter words={["Vous avez une idée ?", "Travaillons ensemble !"]} loop={true} />
           &nbsp;
         </h2>
       </div>
@@ -57,10 +57,10 @@ const ContactForm = () => {
           className="w-[80%] h-full flex flex-col gap-4 pt-4 text-grayscale-200"
         >
           <div className="w-full flex flex-col">
-            <label htmlFor="firstname">First Name</label>
+            <label htmlFor="firstname">Prénom</label>
             <input
               className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Enter your First Name"
+              placeholder="Entrer votre prénom"
               id="firstname"
               type="text"
               name="from_name"
@@ -68,10 +68,10 @@ const ContactForm = () => {
             />
           </div>
           <div className="w-full flex flex-col">
-            <label htmlFor="lastname">Last Name</label>
+            <label htmlFor="lastname">Nom</label>
             <input
               className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Enter your Last Name"
+              placeholder="Entrer votre nom"
               id="lastname"
               type="text"
               name="from_last"
@@ -82,7 +82,7 @@ const ContactForm = () => {
             <label htmlFor="email">E-mail</label>
             <input
               className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Enter your E-mail"
+              placeholder="Entrer votre E-mail"
               id="email"
               type="email"
               name="from_email"
@@ -93,7 +93,7 @@ const ContactForm = () => {
             <label>Message</label>
             <textarea
               className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Enter your message..."
+              placeholder="Entrer votre messaege..."
               name="message"
               required
             ></textarea>
@@ -102,8 +102,7 @@ const ContactForm = () => {
             <input
               className="w-[100px] h-[50px] bg-primary-600 rounded-xl cursor-pointer hover:bg-primary-700"
               type="submit"
-              value={!isSent ? 'Send' : 'Done!'}
-              
+              value={!isSent ? 'Envoyer' : 'Envoyé!'}
             />
           </div>
         </form>

@@ -2,7 +2,7 @@ import { m, LazyMotion, domAnimation } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icons } from "../Constants/constants";
 
-const ContactServices = () => {  
+const ContactServices = () => {
   return (
     <div
       className="w-full sm:w-[40%] h-full flex flex-col gap-4 justify-center"
@@ -19,7 +19,7 @@ const ContactServices = () => {
               className="w-[50px] h-full text-primary-400"
               icon={icons.faWindowRestore}
             />
-            <span>Custom Web Development</span>
+            <span>Développement web sur-mesure</span>
           </div>
         </m.div>
         <m.div
@@ -30,9 +30,9 @@ const ContactServices = () => {
           <div className="w-full h-[50px] text-grayscale-100 flex items-center gap-4">
             <FontAwesomeIcon
               className="w-[50px] h-full text-primary-400"
-              icon={icons.faReact}
+              icon={icons.faRobot}
             />
-            <span>React Web Development</span>
+            <span>Développement CMS</span>
           </div>
         </m.div>
         <m.div
@@ -45,7 +45,7 @@ const ContactServices = () => {
               className="w-[50px] h-full text-primary-400"
               icon={icons.faDiceD6}
             />
-            <span>Webflow/Framer Website</span>
+            <span>Maintenance</span>
           </div>
         </m.div>
         <m.div
@@ -56,9 +56,9 @@ const ContactServices = () => {
           <div className="w-full h-[50px] text-grayscale-100 flex items-center gap-4">
             <FontAwesomeIcon
               className="w-[50px] h-full text-primary-400"
-              icon={icons.faBagShopping}
+              icon={icons.faTrello}
             />
-            <span>Shopify Store Development</span>
+            <span>Méthode SCRUM</span>
           </div>
         </m.div>
       </LazyMotion>

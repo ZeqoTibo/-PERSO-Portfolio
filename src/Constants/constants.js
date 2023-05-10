@@ -11,8 +11,7 @@ import {
   faTrello,
   faReact,
   faGithub,
-  faYoutube,
-  faTiktok,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -83,8 +82,7 @@ const icons = {
   faDiceD6,
   faReact,
   faGithub,
-  faYoutube,
-  faTiktok,
+  faLinkedin,
 };
 
 const introduction = {

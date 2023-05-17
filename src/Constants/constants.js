@@ -22,7 +22,7 @@ import {
   cssIcon,
   jsIcon,
   reactIcon,
-  threeIcon,
+  symfonyIcon,
   tailwindIcon,
   reduxIcon,
   gitIcon,
@@ -50,7 +50,7 @@ const media = {
   cssIcon,
   jsIcon,
   reactIcon,
-  threeIcon,
+  symfonyIcon,
   tailwindIcon,
   reduxIcon,
   gitIcon,
@@ -223,20 +223,19 @@ const skills = [
     description:
         "Je maîtrise React et ses concepts de base. Je suis capable de créer des composants réutilisables et de gérer l'état de l'application à l'aide de hooks et de contextes.",
   },
+//  {
+//    id: "tailwind",
+//    title: "Tailwind CSS",
+//    icon: tailwindIcon,
+//    description:
+//        "I am familiar with using Tailwind CSS to quickly and efficiently style web pages, and am able to create custom designs by combining pre-defined classes.",
+//  },
   {
-    id: "tailwind",
-    title: "Tailwind CSS",
-    icon: tailwindIcon,
-    description:
-        "I am familiar with using Tailwind CSS to quickly and efficiently style web pages, and am able to create custom designs by combining pre-defined classes.",
+     id: "symfony",
+     title: "Symfony",
+     icon: symfonyIcon,
+     description: "J'ai pu concevoir de nombreuses applications web avec le framework Symfony que j'ai découvert il y a maintenant plus de 3 ans. C'est l'un des premier framework que j'ai appris et que j'ai pu utiliser dans le cadre de mes études et experiences professionnelles.",
   },
-  // {
-  //   id: "threejs",
-  //   title: "Three.js",
-  //   icon: threeIcon,
-  //   description:
-  //       "I have experience using Three.js to create 3D graphics and animations in web applications, and am able to create complex scenes and visualizations.",
-  // },
   {
     id: "reactnative",
     title: "React Native",

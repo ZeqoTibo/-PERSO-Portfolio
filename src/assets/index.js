@@ -13,7 +13,7 @@ import htmlIcon from './tech/html.png'
 import cssIcon from './tech/css.png'
 import jsIcon from './tech/javascript.png'
 import reactIcon from './tech/reactjs.png'
-import threeIcon from './tech/threejs.svg'
+import symfonyIcon from './tech/symfony.png'
 import tailwindIcon from './tech/tailwind.png'
 import gitIcon from './tech/git.png'
 import githubIcon from './tech/github.png'
@@ -54,7 +54,7 @@ export {
     cssIcon,
     jsIcon,
     reactIcon,
-    threeIcon,
+    symfonyIcon,
     tailwindIcon,
     gitIcon,
     githubIcon,

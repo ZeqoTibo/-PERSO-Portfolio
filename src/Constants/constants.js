@@ -94,66 +94,12 @@ const introduction = {
 
     "En septembre 2019, j'intègre un DUT Informatique à Laval qui m'a permis de plonger plus profondément dans le développement informatique, ce qui m'a amené ensuite à continuer dans une Licence Professionnelle : Développeur et Intégrateur de Web Application afin d'acquerir davantages de compétences.",
 
-    "Je suis désormais en 1ère année de Master : Développeur Fullstack, mais aussi en tant qu'auto-entrepreneur.",
+    "Je suis désormais en 2ème année de Master : Développeur Fullstack, mais aussi en tant qu'auto-entrepreneur.",
 
     "Merci d'avoir pris le temps de visiter mon portfolio !",
   ],
 };
 
-const journeys = [
-  {
-    title: "Web Foundations",
-    company_name: "Codecademy",
-    icon: codecademy,
-    iconBg: "#204056",
-    date: "5 Dec 2022 - 14 Dec 2022",
-    points: [
-      "Fundamentals of HTML",
-      "Fundamentals of CSS",
-      "Developing Websites Locally",
-      "Deploying Websites",
-    ],
-  },
-  {
-    title: "Improved Styling with CSS",
-    company_name: "Codecademy",
-    icon: codecademy,
-    iconBg: "#204056",
-    date: "15 Dec 2022 - 29 Dec 2022",
-    points: [
-      "Fundamentals of Web Design",
-      "Making a Website Responsive",
-      "CSS Transitions and Animations",
-    ],
-  },
-  {
-    title: "Building Interactive Websites",
-    company_name: "Codecademy",
-    icon: codecademy,
-    iconBg: "#204056",
-    date: "30 Dec 2022 -  9 Feb 2023",
-    points: [
-      "JavaScript Syntax",
-      "Building Interactive Websites",
-      "Making a Website Accessible",
-      "Git and Github",
-    ],
-  },
-  {
-    title: "Front-End Development",
-    company_name: "Codecademy",
-    icon: codecademy,
-    iconBg: "#204056",
-    date: "10 Feb - Present",
-    points: [
-      "JavaScript Syntax",
-      "JavaScript Testing",
-      "Async JavaScript",
-      "Web Apps",
-      "React Framework",
-    ],
-  },
-];
 
 const projects = [
   {
@@ -296,7 +242,6 @@ const globeData = [...Array(N).keys()].map(() => ({
 export {
   media,
   introduction,
-  journeys,
   projects,
   certificates,
   memoji,

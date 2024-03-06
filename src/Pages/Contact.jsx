@@ -28,13 +28,13 @@ const Contact = () => {
             </m.div>
           </LazyMotion>
         </div>
-        <GlobeComponent />
+        {/*<GlobeComponent />*/}
       </div>
-      <div className="w-full flex flex-col">
+      <div className="w-full flex flex-col mt-8">
         <SocialLinks />
         <div className="bg-grayscale-950 flex justify-center pb-4 text-grayscale-400">
           <span>
-            Tout droit réservé à <em>Thbault DEROUIN</em>
+            Tout droit réservé à <em>Thibault DEROUIN</em>
           </span>
         </div>
       </div>

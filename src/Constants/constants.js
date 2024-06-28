@@ -192,7 +192,7 @@ const skills = [
      id: "symfony",
      title: "Symfony",
      icon: symfonyIcon,
-     description: "J'ai découvert Symfony il y a maintenant plus de 3 ans. C'est l'un des premier framework que j'ai appris et que j'ai pu utiliser dans le cadre de mes études et experiences professionnelles.",
+     description: "J'ai découvert Symfony il y a maintenant plus de 3 ans. C'est l'un des premiers framework que j'ai appris et que j'ai pu utiliser dans le cadre de mes études et experiences professionnelles.",
   },
   {
     id: "reactnative",

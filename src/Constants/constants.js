@@ -6,6 +6,7 @@ import {
   faWindowRestore,
   faBagShopping,
   faDiceD6,
+  faMobile,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faTrello,
@@ -33,6 +34,7 @@ import {
   figmaIcon,
   jammmingProject,
   teslaProject,
+  alibabaProject,
   venomsoulProject,
   memojiComputeur,
   memojiHello,
@@ -76,6 +78,7 @@ const icons = {
   faTrello,
   faRobot,
   faBars,
+  faMobile,
   faX,
   faWindowRestore,
   faBagShopping,
@@ -124,6 +127,15 @@ const projects = [
     source_code_link: "https://github.com/valeriusec/jammming-app",
     demo_link: "https://jammming-b7d.pages.dev/",
   },
+  {
+    name: "Alibaba Website",
+    description:
+        "Jammming allows you to search for your favorite songs and create custom playlists. Once you've created your playlist, you can export it directly to your Spotify account.",
+    image: alibabaProject,
+    source_code_link: "https://github.com/valeriusec/jammming-app",
+    demo_link: "https://jammming-b7d.pages.dev/",
+  },
+
 ];
 
 const certificates = {

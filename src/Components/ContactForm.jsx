@@ -46,66 +46,15 @@ const ContactForm = () => {
           &nbsp;
         </h2>
       </div>
-      <div className="w-full flex justify-center">
-        <form
-          id="contact_form"
-          ref={form}
-          method="POST"
-          target="_blank"
-          onSubmit={sendEmail}
-          style={{ fontFamily: "Poppins, sans-serif" }}
-          className="w-[80%] h-full flex flex-col gap-4 pt-4 text-grayscale-200"
-        >
-          <div className="w-full flex flex-col">
-            <label htmlFor="firstname">Prénom</label>
-            <input
-              className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Entrer votre prénom"
-              id="firstname"
-              type="text"
-              name="from_name"
-              required
-            />
-          </div>
-          <div className="w-full flex flex-col">
-            <label htmlFor="lastname">Nom</label>
-            <input
-              className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Entrer votre nom"
-              id="lastname"
-              type="text"
-              name="from_last"
-              required
-            />
-          </div>
-          <div className="w-full flex flex-col">
-            <label htmlFor="email">E-mail</label>
-            <input
-              className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Entrer votre E-mail"
-              id="email"
-              type="email"
-              name="from_email"
-              required
-            />
-          </div>
-          <div className="w-full flex flex-col">
-            <label>Message</label>
-            <textarea
-              className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Entrer votre messaege..."
-              name="message"
-              required
-            ></textarea>
-          </div>
-          <div className="w-full flex justify-center">
-            <input
-              className="w-[100px] h-[50px] bg-primary-600 rounded-xl cursor-pointer hover:bg-primary-700"
-              type="submit"
-              value={!isSent ? 'Envoyer' : 'Envoyé!'}
-            />
-          </div>
-        </form>
+      <div className="w-full flex flex-col justify-center text-grayscale-100 items-center h-5/6">
+        <div className="mb-6 flex flex-col justify-center items-center">
+          <span className="text-xl"> Mon numéro de téléphone </span>
+          <a href="tel:0665704174"> 06 65 70 41 74 </a>
+        </div>
+        <div className="mb-6 flex flex-col justify-center items-center">
+          <span className="text-xl"> Mon adresse mail </span>
+          <a href="mailto:thibaultderouinpro@gmail.com">thibaultderouinpro@gmail.com</a>
+        </div>
       </div>
     </div>
   );

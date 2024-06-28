@@ -28,6 +28,7 @@ import slackIcon from './tech/slack.png'
 import jammmingProject from './projects/Topiscine.png'
 import fitclubProject from './projects/fitclub.png'
 import infopilotProject from './projects/Topiscine.png'
+import alibabaProject from  './projects/Alibaba.png'
 import teslaProject from './projects/HopMaListe.png'
 import venomsoulProject from './projects/BuildYone.png'
 
@@ -66,6 +67,7 @@ export {
     jammmingProject,
     fitclubProject,
     infopilotProject,
+    alibabaProject,
     teslaProject,
     venomsoulProject,
     memojiComputeur,

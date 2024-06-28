@@ -26,7 +26,7 @@ const ContactServices = () => {
         <m.div
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
-            transition={{duration: 0.6, delay: 0.6, type: "spring"}}
+            transition={{duration: 0.6, delay: 0.4, type: "spring"}}
         >
           <div className="w-full h-[50px] text-grayscale-100 flex items-center gap-4">
             <FontAwesomeIcon
@@ -39,7 +39,7 @@ const ContactServices = () => {
         <m.div
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
-            transition={{duration: 0.6, delay: 0.4, type: "spring"}}
+            transition={{duration: 0.6, delay: 0.6, type: "spring"}}
         >
           <div className="w-full h-[50px] text-grayscale-100 flex items-center gap-4">
             <FontAwesomeIcon
@@ -52,7 +52,7 @@ const ContactServices = () => {
         <m.div
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
-            transition={{duration: 0.6, delay: 0.6, type: "spring"}}
+            transition={{duration: 0.6, delay: 0.8, type: "spring"}}
         >
           <div className="w-full h-[50px] text-grayscale-100 flex items-center gap-4">
             <FontAwesomeIcon
@@ -65,7 +65,7 @@ const ContactServices = () => {
         <m.div
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
-            transition={{duration: 0.6, delay: 0.8, type: "spring"}}
+            transition={{duration: 0.6, delay: 1, type: "spring"}}
         >
           <div className="w-full h-[50px] text-grayscale-100 flex items-center gap-4">
             <FontAwesomeIcon

@@ -10,7 +10,7 @@ const Projects = () => {
           <SectionTitle title="PROJETS" subtitle="Ce que j'ai fais jusqu'à présent" />
         </div>
         <div className="w-full h-[80%] z-10 flex justify-center">
-          <div className="w-full xl:w-[60%] h-full">
+          <div className="w-full h-full">
             <ProjectCards />
           </div>
           <div className="absolute w-full h-full top-[-25%] right-[-75%] sm:right-[-50%]">

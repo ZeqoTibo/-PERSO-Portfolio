@@ -24,7 +24,7 @@ const ProjectCards = () => {
         initial={{ x: 200 }}
         whileInView={{ x: 0 }}
         transition={{ duration: 0.6, type: "spring" }}
-        className="relative w-[80%] h-[70%]"
+        className="relative w-[80%] h-[85%]"
       >
         {cards.map((image, index) => {
           const canDrag = true;

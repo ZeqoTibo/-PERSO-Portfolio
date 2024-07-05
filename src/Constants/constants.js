@@ -32,18 +32,13 @@ import {
   trelloIcon,
   slackIcon,
   figmaIcon,
-  jammmingProject,
-  teslaProject,
+  topiscineProject,
+  hopMaListeProject,
   alibabaProject,
-  venomsoulProject,
+  buildYoneProject,
   memojiComputeur,
   memojiHello,
   memojiHandCheck,
-  htmlCertificate,
-  cssCertificate,
-  jsCertificate,
-  reactCertificate,
-  webflowCertificate,
 } from "../assets";
 
 const media = {
@@ -61,17 +56,12 @@ const media = {
   trelloIcon,
   slackIcon,
   figmaIcon,
-  jammmingProject,
-  teslaProject,
-  venomsoulProject,
+  topiscineProject,
+  hopMaListeProject,
+  buildYoneProject,
   memojiComputeur,
   memojiHello,
   memojiHandCheck,
-  htmlCertificate,
-  cssCertificate,
-  jsCertificate,
-  reactCertificate,
-  webflowCertificate,
 }
 
 const icons = {
@@ -106,47 +96,28 @@ const introduction = {
 
 const projects = [
   {
-    name: "Venomsoul E-Commerce",
+    name: "Build Yone",
     description: "",
-    image: venomsoulProject,
-    source_code_link: "https://github.com/valeriusec",
-    demo_link: "https://infopilot.netlify.app/",
+    image: buildYoneProject,
   },
   {
-    name: "Tesla Website",
+    name: "Hop Ma List - CHU ANGERS",
     description: "",
-    image: teslaProject,
-    source_code_link: "https://github.com/valeriusec/tesla-website",
-    demo_link: "https://infopilot.netlify.app/",
+    image: hopMaListeProject,
   },
   {
-    name: "Jammming App",
+    name: "Topiscine",
     description:
-        "Jammming allows you to search for your favorite songs and create custom playlists. Once you've created your playlist, you can export it directly to your Spotify account.",
-    image: jammmingProject,
-    source_code_link: "https://github.com/valeriusec/jammming-app",
-    demo_link: "https://jammming-b7d.pages.dev/",
+        "",
+    image: topiscineProject,
   },
   {
-    name: "Alibaba Website",
+    name: "Alibaba Kebab",
     description:
-        "Jammming allows you to search for your favorite songs and create custom playlists. Once you've created your playlist, you can export it directly to your Spotify account.",
+          "",
     image: alibabaProject,
-    source_code_link: "https://github.com/valeriusec/jammming-app",
-    demo_link: "https://jammming-b7d.pages.dev/",
   },
-
 ];
-
-const certificates = {
-  image: [
-    htmlCertificate,
-    cssCertificate,
-    jsCertificate,
-    reactCertificate,
-    webflowCertificate,
-  ],
-};
 
 const memoji = {
   image: [memojiHello, memojiComputeur, memojiHandCheck],
@@ -181,13 +152,6 @@ const skills = [
     description:
         "Je maîtrise React et ses concepts de base. Je suis capable de créer des composants réutilisables et de gérer l'état de l'application à l'aide de hooks et de contextes.",
   },
-//  {
-//    id: "tailwind",
-//    title: "Tailwind CSS",
-//    icon: tailwindIcon,
-//    description:
-//        "I am familiar with using Tailwind CSS to quickly and efficiently style web pages, and am able to create custom designs by combining pre-defined classes.",
-//  },
   {
      id: "symfony",
      title: "Symfony",
@@ -255,7 +219,6 @@ export {
   media,
   introduction,
   projects,
-  certificates,
   memoji,
   skills,
   markerSvg,

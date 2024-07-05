@@ -8,7 +8,7 @@ const NavLinks = ({ handleClick }) => {
             onClick={handleClick}
             href="#about"
           >
-            About me
+            À propos
           </a>
         </li>
         <li className="border-t-[1px] border-grayscale-950 w-full flex justify-center p-3">
@@ -17,16 +17,7 @@ const NavLinks = ({ handleClick }) => {
             onClick={handleClick}
             href="#projects"
           >
-            Projects
-          </a>
-        </li>
-        <li className="border-t-[1px] border-grayscale-950 w-full flex justify-center p-3">
-          <a
-            className="active:text-grayscale-100"
-            onClick={handleClick}
-            href="#certificates"
-          >
-            Certificates
+            Mes projets
           </a>
         </li>
         <li className="border-t-[1px] border-grayscale-950 w-full flex justify-center p-3">
@@ -35,7 +26,7 @@ const NavLinks = ({ handleClick }) => {
             onClick={handleClick}
             href="#skills"
           >
-            Skills
+            Mes compétences
           </a>
         </li>
         <li className="border-t-[1px] border-b-[1px] border-grayscale-950 w-full flex justify-center p-3">
@@ -44,7 +35,7 @@ const NavLinks = ({ handleClick }) => {
             onClick={handleClick}
             href="#contact"
           >
-            Contact
+            Me contacter
           </a>
         </li>
       </ul>

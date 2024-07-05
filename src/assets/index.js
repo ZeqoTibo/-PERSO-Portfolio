@@ -1,6 +1,5 @@
 //Logo
-import logoWhite from './logo/logo_white.png'
-import logoBlack from './logo/logo_black.png'
+import memojiCheck from './memoji/memoji_handCheck.png'
 
 //Astro
 
@@ -25,12 +24,11 @@ import slackIcon from './tech/slack.png'
 
 //Projects
 
-import jammmingProject from './projects/Topiscine.png'
-import fitclubProject from './projects/fitclub.png'
+import topiscineProject from './projects/Topiscine.png'
 import infopilotProject from './projects/Topiscine.png'
 import alibabaProject from  './projects/Alibaba.png'
-import teslaProject from './projects/HopMaListe.png'
-import venomsoulProject from './projects/BuildYone.png'
+import hopMaListeProject from './projects/HopMaListe.png'
+import buildYoneProject from './projects/BuildYone.png'
 
 //Memoji
 
@@ -38,12 +36,6 @@ import memojiComputeur from './memoji/memoji_computer.png'
 import memojiHello from './memoji/memoji_hello.png'
 import memojiHandCheck from './memoji/memoji_handCheck.png'
 
-//Certificates
-import htmlCertificate from './certificates/Html_Codecademy_Certificate.png'
-import cssCertificate from './certificates/Css_Codecademy_Certificate.png'
-import jsCertificate from './certificates/JavaScript_Codecademy_Certificate.png'
-import reactCertificate from './certificates/React_Codecademy_Certificate.png'
-import webflowCertificate from './certificates/Webflow_101_Certificate.png'
 
 import globeTexture from './globe.svg'
 
@@ -64,21 +56,14 @@ export {
     nodejsIcon,
     trelloIcon,
     slackIcon,
-    jammmingProject,
-    fitclubProject,
+    topiscineProject,
     infopilotProject,
     alibabaProject,
-    teslaProject,
-    venomsoulProject,
+    hopMaListeProject,
+    buildYoneProject,
     memojiComputeur,
     memojiHello,
     memojiHandCheck,
-    htmlCertificate,
-    cssCertificate,
-    jsCertificate,
-    reactCertificate,
-    webflowCertificate,
     globeTexture,
-    logoWhite,
-    logoBlack,
+    memojiCheck
 }

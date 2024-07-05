@@ -1,4 +1,4 @@
-import { logoWhite } from "../../assets/index";
+import { memojiCheck } from "../../assets/index";
 
 const NavHeader = ({handleClick}) => {
   return (
@@ -6,16 +6,16 @@ const NavHeader = ({handleClick}) => {
       <a href="#hero" onClick={handleClick} className="flex flex-col">
       <img
         className="cursor-pointer bounce object-cover w-[100px] h-[100px]"
-        src={logoWhite}
-      />
+        src={memojiCheck}
+       alt="Memoji Ceck"/>
       <span
         style={{ fontFamily: "Vermin Vibes, sans-serif" }}
         className="text-3xl text-grayscale-50"
       >
-        Valeriu
+        Thibault
       </span>
       </a>
-      <span className="text-sm text-grayscale-300">Front-end Developer</span>
+      <span className="text-sm text-grayscale-300">Développeur Web FullStack</span>
     </div>
   );
 };

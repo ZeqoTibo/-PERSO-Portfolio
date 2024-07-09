@@ -43,7 +43,7 @@ const AstronautImage = () => {
               animate={{ pathLength: isInView ? 0.5 : 0, x: 0 }}
               transition={{ duration: 4, type: "spring" }}
               fill="none"
-              stroke="#29c27f"
+              stroke="#0e626f"
               strokeWidth={0.5}
               stroke-linecap="square"
               stroke-linejoin="miter"

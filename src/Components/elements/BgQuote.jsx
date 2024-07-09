@@ -14,7 +14,7 @@ const BgQuote = (props) => {
       >
         <p
           style={{ fontFamily: "La Belle Aurore, cursive" }}
-          className="text-grayscale-600 text-lg noselect"
+          className="text-primary-600 text-lg noselect bgQuote"
         >
           {text}
         </p>

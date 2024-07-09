@@ -89,7 +89,7 @@ export const heroOptions = {
         duration: 0.4,
         size: 40,
         color: {
-          value: "#29c27f",
+          value: "#0e626f",
         },
         opacity: 8,
         mix: false,

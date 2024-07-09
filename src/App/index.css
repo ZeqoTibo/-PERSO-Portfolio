@@ -16,7 +16,7 @@
 
 body {
   background: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
-  background-color: #16171b;
+  background-color: #B8CBD0;
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -31,7 +31,7 @@ body {
   content: " ";
   width: 10px;
   height: 10px;
-  background: #04975e;
+  @apply bg-primary-600;
   position: absolute;
   bottom: -10px;
   right: 0;
@@ -41,13 +41,15 @@ body {
 #repulse-div {
   -webkit-appearance: none;
   appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #29c27f);
-  filter: drop-shadow(0 0 5rem #29c27f);
+  @apply drop-shadow-primary;
+  /*-webkit-filter: drop-shadow(0 0 5rem #137C8B);*/
+  /*filter: drop-shadow(0 0 5rem #137C8B);*/
 }
 
 #repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #29c27f);
-  filter: drop-shadow(0 0 5rem #29c27f);
+  /*-webkit-filter: drop-shadow(0 0 5rem #137C8B);*/
+  /*filter: drop-shadow(0 0 5rem #137C8B);*/
+  @apply drop-shadow-primary;
 }
 
 #journey-scroll::-webkit-scrollbar {
@@ -62,7 +64,7 @@ body {
 .arrowpath,
 polyline {
   fill: none;
-  stroke: #515152;
+  stroke: #0b545f;
   vector-effect: non-scaling-stroke;
   stroke-width: 2;
 }
@@ -82,7 +84,7 @@ polyline {
 
 .blob {
   animation: morph 3.6s linear infinite;
-  background: #29c27f;
+  background: #137C8B;
   border-collapse: separate;
   background-size: cover;
   background-position: center;
@@ -115,7 +117,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #0fba74;
+  @apply text-primary-500;
 }
 
 @keyframes rubberband {
@@ -146,8 +148,7 @@ polyline {
   .drop-shadow-div {
     -webkit-appearance: none;
     appearance: none;
-    -webkit-filter: drop-shadow(0 0 1.5rem #29c27f);
-    filter: drop-shadow(0 0 1.5rem #29c27f);
+    @apply drop-shadow-blue;
   }
 }
 
@@ -170,7 +171,7 @@ polyline {
   height: 80px;
   border-radius: 50%;
   border: 5px solid;
-  border-color: #29c27f transparent;
+  border-color: #137C8B transparent;
 }
 
 @keyframes rotation {

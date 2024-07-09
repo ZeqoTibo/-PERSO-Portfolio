@@ -32,7 +32,7 @@ const Contact = () => {
       </div>
       <div className="w-full flex flex-col mt-8">
         <SocialLinks />
-        <div className="bg-grayscale-950 flex justify-center pb-4 text-grayscale-400">
+        <div className="bg-primary-600 flex justify-center pb-4 text-grayscale-100">
           <span>
             Tout droit réservé à <em>Thibault DEROUIN</em>
           </span>

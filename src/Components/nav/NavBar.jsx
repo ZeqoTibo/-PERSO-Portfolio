@@ -34,7 +34,7 @@ const NavBar = () => {
       }}
       className={`${
         isActive
-          ? "w-full h-full bg-primary-400 fixed z-50 flex-col"
+          ? "w-full h-full bg-grayscale-50 fixed z-50 flex-col"
           : "w-full bg-[rgba(0, 0, 0, 0)] fixed z-50"
       }`}
     >

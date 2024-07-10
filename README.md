@@ -8,7 +8,6 @@ Bienvenue sur mon portfolio ! Ce site web a été construit avec React et Framer
 - Animations fluides et transitions avec Framer Motion
 - Présentation des projets avec images, descriptions et liens
 - Section des compétences avec icônes et descriptions
-- Formulaire de contact avec validation et fonctionnalité d'envoi d'e-mails
 
 ## Technologies
 

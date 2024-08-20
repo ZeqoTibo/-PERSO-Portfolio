@@ -1,6 +1,6 @@
 # Mon Portfolio
 
-Bienvenue sur mon portfolio ! Ce site web a été construit avec React et Framer Motion, et présente mes compétences et projets en tant que développeur web. Vous pouvez visiter le site web en direct [ici](https://thankful-bush-00a848b03.3.azurestaticapps.net/).
+Bienvenue sur mon portfolio ! Ce site web a été construit avec React et Framer Motion, et présente mes compétences et projets en tant que développeur web. Vous pouvez visiter le site web en direct [ici](https://zeqodev.vercel.app).
 
 ## Fonctionnalités
 
@@ -8,7 +8,6 @@ Bienvenue sur mon portfolio ! Ce site web a été construit avec React et Framer
 - Animations fluides et transitions avec Framer Motion
 - Présentation des projets avec images, descriptions et liens
 - Section des compétences avec icônes et descriptions
-- Formulaire de contact avec validation et fonctionnalité d'envoi d'e-mails
 
 ## Technologies
 

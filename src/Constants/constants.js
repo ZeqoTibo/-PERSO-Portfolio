@@ -87,7 +87,7 @@ const introduction = {
 
     "En septembre 2019, j'intègre un DUT Informatique à Laval qui m'a permis de plonger plus profondément dans le développement informatique, ce qui m'a amené ensuite à continuer dans une Licence Professionnelle : Développeur et Intégrateur de Web Application afin d'acquerir davantages de compétences.",
 
-    "Je suis désormais en 2ème année de Master : Développeur Fullstack, mais aussi en tant qu'auto-entrepreneur.",
+    "Je suis désormais diplomé d'un Master : 'Développeur Fullstack' et auto-entrepreneur sur mon temps libre.",
 
     "Merci d'avoir pris le temps de visiter mon portfolio !",
   ],
